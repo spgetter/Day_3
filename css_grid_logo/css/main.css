@@ -1,0 +1,53 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "Adidas Google Amazon Beats"
+    "Samsung Nike JBL Ebay";
+    margin-top: 10vh;
+}
+
+.Adidas{
+    grid-area: "Adidas";
+}
+
+.Google{
+    grid-area: "Google";
+}
+
+.Amazon{
+    grid-area: "Amazon";
+}
+
+.Beats{
+    grid-area: "Beats";
+}
+
+.Samsung{
+    grid-area: "Samsung";
+}
+
+.JBL{
+    grid-area: "JBL";
+}
+
+.Nike{
+    grid-area: "Nike";
+}
+
+.Ebay{
+    grid-area: "Ebay";
+}
+.Adidas,.Google,.Amazon,.Beats,.Ebay,.JBL,.Nike,.Samsung{
+    justify-content: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50vh;
+    border: 1px solid #EEE; 
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+}
